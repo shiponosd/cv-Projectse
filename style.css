@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: #f0ffff;
+   font-family: 'Roboto',sans-serif;
+    
+}
+.container{
+    background-color: rgb(208, 240, 240);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border-radius: 50px;
+    border: 2px solid white;
+    float: left;
+  
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(3, 63, 63);
+    font-size: larger;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-containt {
+    float:right;
+    font-size: medium;
+    color: rgb(3, 63, 63);
+    padding: 30px;
+    
+}
+.header-containt a{
+    color: rgb(3, 63, 63); ;
+}
+.header-containt a:hover{
+color: tomato;
+    
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 2px solid black;
+    margin: 20px auto;
+    border-bottom: none;
+    
+}
+.left-div{
+    width: 30%;
+    float:left;
+}
+.right-div{
+    width: 70%;
+    color: black;
+    font-size: small;
+    float:left;
+}
+.Personal-experience h1 ,h2{
+    font-size: 25px;
+}
+
+.right-div{
+    width: 70%;
+    color: black;
+    font-size: small;
+    float:left;
+    
+}
+.edu-template-left{
+    float: left;
+    width: 45%;
+}
+.edu-template-right{
+    width: 45%;
+    float: right;
+    
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 10px;
+}
+.bottom-container  :hover{
+    color: tomato;
+}
